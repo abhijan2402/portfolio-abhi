@@ -1,0 +1,188 @@
+.skill {
+    font-size: 100px;
+    letter-spacing: 1px;
+
+    text-align: right;
+    font-weight: bold;
+    /* background: url("https://image.shutterstock.com/image-illustration/sky-blue-cross-lines-on-260nw-1294312942.jpg"); */
+    /* background: url("https://png.pngtree.com/thumb_back/fh260/back_pic/04/13/44/09581dcf54e387b.jpg"); */
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBeDkWy7Q5Q9BvjMdkankKZLj_J9ibvcU3_cza9yv9LAnLW0_epJbVKirrfqw2wgs32SY&usqp=CAU");
+    /* background: url("https://png.pngtree.com/background/20210706/original/pngtree-blue-business-technology-products-tenders-album-cover-vector-background-material-picture-image_54688.jpg"); */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text 15s linear infinite;
+    margin-right: 3%;
+}
+
+@keyframes text {
+    from {
+        background-position: 0% 50%;
+    }
+
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+.card {
+    width: 25cm;
+    height: 300px;
+    margin: 50px;
+    box-shadow: 5px 10px 20px 2px black;
+    overflow: hidden;
+    margin-right: 11%;
+    margin-left: 11%;
+    /* width: 50%; */
+    /* border: 3px solid red; */
+    /* width: 130%; */
+}
+
+.img {
+    width: 100%;
+    height: 250px;
+    border-radius: 3px;
+    transition: 0.5s ease-in-out;
+}
+
+.container {
+    display: flex;
+    /* border: 1px solid red; */
+    animation: tin1 0.5s 3s linear alternate;
+    transition: 0.5s ease-in-out;
+}
+
+@keyframes tin1 {
+    0% {
+        width: 60%;
+
+    }
+
+    50% {
+        width: 80%;
+
+    }
+
+    100% {
+        width: 100%;
+    }
+
+}
+
+.intro {
+    height: 70px;
+    width: 28%;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    /* bottom: -1100px; */
+    /* top: 130%; */
+
+    color: white;
+    /* background:rgb(126, 103, 103); */
+    transition: 2s;
+}
+
+.h2 {
+    margin: 10px;
+    font-size: 20px;
+    opacity: 1;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+
+
+}
+
+.p {
+    font-size: 20px;
+    margin: 20px;
+    opacity: 0;
+    visibility: visible;
+    text-align: center;
+
+
+}
+
+.card:hover {
+    cursor: pointer;
+
+}
+
+.card:hover .intro {
+    height: 250px;
+    width: 28%;
+    /* bottom: -1300px; */
+    opacity: 1;
+    background: black;
+    /* border-radius: 30px; */
+}
+
+.card:hover .p {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card:hover .h2 {
+    color: white;
+}
+
+.card:hover .img {
+    transform: scale(1.1) rotate(-3deg);
+
+}
+
+@media screen and (max-width: 700px) and (min-width:400px) {
+    .skill {
+        font-size: 70px;
+        text-align: center;
+    }
+
+    .container {
+        display: block;
+        /* border: 1px solid green; */
+    }
+
+    .card {
+        display: block;
+        width: 80%;
+        /* border: 1px solid red; */
+    }
+
+    .intro {
+        height: 70px;
+        width: 80%;
+    }
+
+    .card:hover .intro {
+        height: 250px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 400px) and (min-width:200px) {
+    .skill {
+        font-size: 55px;
+        text-align: center;
+    }
+
+    .container {
+        display: block;
+        /* border: 1px solid green; */
+    }
+
+    .card {
+        display: block;
+        width: 100%
+    }
+
+    .intro {
+        height: 70px;
+        width: 100%;
+    }
+
+    .card:hover .intro {
+        height: 250px;
+        width: 100%;
+    }
+}

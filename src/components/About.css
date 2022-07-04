@@ -1,0 +1,51 @@
+.about-div {
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.inner-about-div {
+    /* border: 1px solid green; */
+    margin: auto;
+    width: auto;
+    margin: 4% 10% 4% 10%;
+    border-radius: 60px;
+    border-style: groove;
+    box-decoration-break: slice;
+    transition: 1.5s ease-out;
+
+}
+
+.hein {
+    padding: 2%;
+    font-size: 20px;
+}
+
+.inner-about-div:hover {
+    box-shadow: 5px 4px 15px 3px black;
+}
+
+@media screen and (max-width: 400px) and (min-width:200px) {
+    .hein {
+        font-size: 15px;
+    }
+
+    .about-div {
+        margin: auto;
+        width: auto;
+        margin-top: 20%;
+        width: 100%;
+    }
+
+    .inner-about-div {
+        /* border: 1px solid green; */
+        margin: auto;
+        width: auto;
+        /* margin: 4% 3% 4% 3%; */
+        border-radius: 60px;
+        width: 100%;
+        margin-left: 10%;
+        box-shadow: 5px 4px 15px 3px black;
+
+
+    }
+}
