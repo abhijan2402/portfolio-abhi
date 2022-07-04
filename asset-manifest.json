@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio-abhi/static/css/main.f93f358e.css",
+    "main.js": "/portfolio-abhi/static/js/main.ae473152.js",
+    "static/js/787.fc320d2c.chunk.js": "/portfolio-abhi/static/js/787.fc320d2c.chunk.js",
+    "index.html": "/portfolio-abhi/index.html",
+    "main.f93f358e.css.map": "/portfolio-abhi/static/css/main.f93f358e.css.map",
+    "main.ae473152.js.map": "/portfolio-abhi/static/js/main.ae473152.js.map",
+    "787.fc320d2c.chunk.js.map": "/portfolio-abhi/static/js/787.fc320d2c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f93f358e.css",
+    "static/js/main.ae473152.js"
+  ]
+}
