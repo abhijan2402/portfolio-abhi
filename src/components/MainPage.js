@@ -17,7 +17,7 @@ const MainPage = () => {
         <div className="img-div">
           <img
             className="img_back"
-            src="https://cosmosthrace.com/_nuxt/img/Coding.84a81b2.png"
+            src="https://media.istockphoto.com/id/1305078176/photo/3d-cartoon-man-sitting-in-spherical-chair-with-laptop.jpg?s=612x612&w=0&k=20&c=cTac3S10wLGpJPthpF8mPfvRf9XynbUs85-dH6w2xtg="
             alt="main-img"
           ></img>
         </div>

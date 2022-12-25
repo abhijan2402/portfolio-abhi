@@ -16,45 +16,36 @@ const Footer = () => {
         </div>
         <ul class="social_icon">
           <li>
-            <a href="https://www.youtube.com/watch?v=nUUsUAPEjFc">
+            <a href="https://www.facebook.com/abhishek.jangid.7758235" target="_blank">
               <FaFacebookF />
             </a>
           </li>
           <li>
-            <a href="https://www.youtube.com/watch?v=nUUsUAPEjFc">
+            <a href="https://www.instagram.com/abhishekjangid2401/?igshid=YmMyMTA2M2Y%3D" target="_blank">
               <FaInstagram />
             </a>
           </li>
           <li>
-            <a href="https://www.youtube.com/watch?v=nUUsUAPEjFc">
+            <a href="https://www.linkedin.com/in/abhishek-jangid-115283216" target="_blank">
               <FaLinkedinIn />
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="https://www.youtube.com/watch?v=nUUsUAPEjFc">
               <ion-icon name="logo-facebook"></ion-icon>
             </a>
-          </li>
+          </li> */}
         </ul>
         <ul class="menu">
           <li>
-            <a href="https://www.youtube.com/watch?v=nUUsUAPEjFc">
+            <a href="tel:7976114618">
               <IoCallOutline />
               7976114618
             </a>
           </li>
-          {/* <li>
-            <a href="">About</a>
-          </li>
-          <li>
-            <a href="">Service</a>
-          </li>
-          <li>
-            <a href="">Team</a>
-          </li> */}
           <li>
             <MdMailOutline />
-            <a href="https://www.youtube.com/watch?v=nUUsUAPEjFc">abhishek.jangid643@gmail.com</a>
+            <a href="mailto:abhishek.jangid643@gmail.com">abhishek.jangid643@gmail.com</a>
           </li>
         </ul>
         <p>
