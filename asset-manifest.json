@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio-abhi/static/css/main.52efb923.css",
+    "main.css": "/portfolio-abhi/static/css/main.2bafa614.css",
     "main.js": "/portfolio-abhi/static/js/main.44ccff8d.js",
     "static/js/787.fc320d2c.chunk.js": "/portfolio-abhi/static/js/787.fc320d2c.chunk.js",
     "index.html": "/portfolio-abhi/index.html",
-    "main.52efb923.css.map": "/portfolio-abhi/static/css/main.52efb923.css.map",
+    "main.2bafa614.css.map": "/portfolio-abhi/static/css/main.2bafa614.css.map",
     "main.44ccff8d.js.map": "/portfolio-abhi/static/js/main.44ccff8d.js.map",
     "787.fc320d2c.chunk.js.map": "/portfolio-abhi/static/js/787.fc320d2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52efb923.css",
+    "static/css/main.2bafa614.css",
     "static/js/main.44ccff8d.js"
   ]
 }
